@@ -18,7 +18,6 @@ from django.urls import path
 from myapp import views
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('',views.welcome),
-path('index',views.welcome),
+    path('product',views.product),
+    path('',views.welcome)
 ]

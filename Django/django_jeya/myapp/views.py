@@ -9,4 +9,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 def welcome(request):
     result=os.path.join(BASE_DIR, "template")
     print(result)
-    return render(request,'welcome.html',{'Name':'Jeya'})
+    return render(request,'welcome.html')
+def product(request):
+    mobile=int(request.GET["mobile"])
+    keyboard =int( request.GET["keyboard"])
+    monitor = int(request.GET["monitor"])
+    price=mobile+keyboard+monitor
+    return render(request,'result.html',{"name":price})
