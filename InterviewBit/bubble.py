@@ -9,7 +9,6 @@ def bubbleSort(arr):
                 arr[j], arr[j + 1] = arr[j + 1], arr[j]
         if not swapped:
             # if we haven't needed to make a single swap, we
-            # can just exit the main loop.
             return
 arr = [64, 34, 25, 12, 22, 11, 90]
 bubbleSort(arr)
