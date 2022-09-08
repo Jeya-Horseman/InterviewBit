@@ -13,6 +13,3 @@ def strpatte(str,len):
 str = "geeksforgeeks"
 len = len(str)
 strpatte(str, len)
-
-# This code is contributed
-# by Smitha
