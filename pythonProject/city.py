@@ -1,6 +1,6 @@
-city="ppramakudi"
-s=set(city[0::2])
-if('a' in s):
+city="jeyaa"
+s=set(city)
+if('v' in s):
     print(len(s))
 else:
     print(len(city))
