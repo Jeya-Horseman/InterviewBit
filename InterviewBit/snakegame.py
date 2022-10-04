@@ -1,7 +1,3 @@
-# Snake Game
-
-#Works only in PC .. install pygame package (pip install pygame)
-
 import pygame
 import time
 import sys
@@ -46,7 +42,7 @@ score = 0
 # Display my name:
 PlaySurface.fill(white)
 pfont = pygame.font.SysFont('monaco', 35)
-pSurf = pfont.render('Welcome to Snake Game created by Suren.', True, blue) # add your name here
+pSurf = pfont.render('Welcome to Snake Game created by jeya.', True, blue) # add your name here
 pRect = pSurf.get_rect()
 pRect.midtop = (360, 200)
 PlaySurface.blit(pSurf, pRect)
