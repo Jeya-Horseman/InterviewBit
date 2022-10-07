@@ -1,6 +1,3 @@
-# Python3 program to separately sort
-# even-placed and odd placed numbers
-# and place them together in sorted array.
 def bitonicGenerator(arr, n):
     # create evenArr[] and oddArr[]
     evenArr = []

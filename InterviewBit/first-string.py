@@ -8,7 +8,6 @@ def isSubstring(s1, s2):
                 break
         if j + 1 == M:
             return i
-
     return -1
 if __name__ == "__main__":
     s1 = "for"

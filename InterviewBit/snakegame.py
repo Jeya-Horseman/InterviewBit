@@ -1,7 +1,8 @@
-import pygame
-import time
-import sys
 import random
+import sys
+import time
+
+import pygame
 
 restart = 2
 
